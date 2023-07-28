@@ -9,11 +9,11 @@ const SiteNav = () => {
     return(
       <Navbar className="nav">
         <Container className='d-flex justify-content-between'>
-          <Navbar.Brand href="#home" onClick={() => {router.push('/')}} style={{color: '#EED7C5'}}>AdoptameUY</Navbar.Brand>
+          <Navbar.Brand class = "appName" href="#" onClick={() => {router.push('/')}}>Adoptame.UY</Navbar.Brand>
           
           <Nav style={{marginRight: 0}}>
-            <Nav.Link className = "headerLink" href="#home" onClick={() => {router.push('/login')}} style={{color: '#EED7C5'}}>Login</Nav.Link>
-            <Nav.Link className = "headerLink" onClick={() => {router.push('/register')}} style={{color: '#EED7C5'}}>Sign Up</Nav.Link>
+            <Nav.Link href="#home" onClick={() => {router.push('/login')}}>Acceder</Nav.Link>
+            <Nav.Link onClick={() => {router.push('/register')}}>Contacto</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

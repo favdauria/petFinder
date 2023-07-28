@@ -4,11 +4,11 @@ import Main from '@/components/main'
 
 function IndexPage() {
   return (
-    <div>
+    <>
       <SiteNav/>
       <Header/>
       <Main image='/src/assets/mainlogo.png'/>
-    </div>
+    </>
   )
 }
 
